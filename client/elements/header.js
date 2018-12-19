@@ -22,10 +22,11 @@ module.exports = function () {
       </div>
 
       <div class="dtc v-mid w-75 tr">
-        <a class="link dim color-neutral ttu tracked f6 f5-ns dib mr3 mr4-ns" href="https://try-dat.com"  title="Try Dat Now!">Try Dat</a>
-        <a class="link dim color-neutral ttu tracked f6 f5-ns dib mr3 mr4-ns" href="https://blog.datproject.org"  title="Dat Blog">Blog</a>
-        <a class="link dim color-neutral ttu tracked f6 f5-ns dib mr3 mr4-ns" href="https://docs.datproject.org" title="Dat Documentation">Docs</a>
-        <a class="link dim color-neutral ttu tracked f6 f5-ns dib mr3 mr4-ns" href="/about" title="About Dat Project">About</a>
+        <a class="link dim color-neutral ttu tracked f6 f5-ns dib mr3 mr4-ns" href="https://try-dat.com"  title="Try Dat Now!">进入 Dat</a>
+        <a class="link dim color-neutral ttu tracked f6 f5-ns dib mr3 mr4-ns" href="https://blog.datproject.org"  title="Dat Blog">官方博客</a>
+        <a class="link dim color-neutral ttu tracked f6 f5-ns dib mr3 mr4-ns" href="https://forum.datproject.org.cn"  title="Dat Blog">技术社区</a>
+        <a class="link dim color-neutral ttu tracked f6 f5-ns dib mr3 mr4-ns" href="https://docs.datproject.org.cn" title="Dat Documentation">中文文档</a>
+        <a class="link dim color-neutral ttu tracked f6 f5-ns dib mr3 mr4-ns" href="/about" title="About Dat Project">关于Dat</a>
       </div>
     </nav>
   `

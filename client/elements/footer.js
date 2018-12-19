@@ -15,9 +15,10 @@ module.exports = function () {
         <div class="fl w-third">
           <h4 class="f4 horizontal-rule-footer">Learn</h4>
           <ul class="dat-list p0 list lh-copy">
-            ${liLink('/about', 'About')}
-            ${liLink('https://blog.datproject.org', 'Blog')}
-            ${liLink('https://docs.datproject.org', 'Docs')}
+            ${liLink('/about', '关于Dat')}
+            ${liLink('https://blog.datproject.org', '官方博客')}
+            ${liLink('https://forum.datproject.org.cn', '技术社区')}
+            ${liLink('https://docs.datproject.org.cn', '官方文档')}
           </ul>
         </div>
         <div class="fl w-third">
@@ -29,7 +30,7 @@ module.exports = function () {
         </div>
       </div>
       <p class="bt b--dat-neutral-80 color-neutral-50 tc f6 pv3">
-        <strong>Dat Project</strong> © 2018 • Source on <a class="color-neutral-50 hover-color-pink" href="https://github.com/datproject/datproject.org">github</a>
+        <strong>Dat Project中文网</strong> © 2018 • Source on <a class="color-neutral-50 hover-color-pink" href="https://github.com/Dat-China/datproject.org">github</a>
       </p>
     </section>
   </footer>

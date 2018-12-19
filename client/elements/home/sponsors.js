@@ -5,12 +5,13 @@ module.exports = function (props) {
     <section class="${props.klass}">
       <div class="pv2 ph3 pa4-m mw8-ns center-ns">
       <header>
-        <h2 class="f2 mb0">Sponsors and Supporters</h2>
-        <p class="f4 mt1 color-neutral-70 horizontal-rule">Dat is supported by donations and grants. Want to learn more? Check our <a
+        <!--<h2 class="f2 mb0">Sponsors and Supporters</h2>-->
+        <h2 class="f2 mb0">赞助和支持者</h2>
+        <p class="f4 mt1 color-neutral-70 horizontal-rule">Dat项目是由捐款和赞助支持的。想了解更多信息? 查看我们的<a
             target="_blank"
             class="link"
             href="https://github.com/datproject/organization"
-            >financial information</a>.</p>
+            >财务信息</a>.</p>
       </header>
       <div class="pt3 flex flex-wrap w-100">
         <a class="w-100 w-auto-ns inline-flex items-center mv2 mh3" href="https://codeforscience.org/" title="Code for Science and Society">
@@ -34,10 +35,15 @@ module.exports = function (props) {
           <div class="dt-ns dt--fixed-ns w-100">
             <div class="pa3 pa4-ns dtc-ns v-mid">
               <div>
-                <h2 class="fw4 f3 mt0 mb3">We need your support!</h2>
-                <p class="black-70 measure lh-copy mv0">
-                  You help make Dat Project a success!
-                  Donations sustain Dat, allowing us to improve core support and feature development.
+                <!--<h2 class="fw4 f3 mt0 mb3">We need your support!</h2>-->
+                <!--<p class="black-70 measure lh-copy mv0">-->
+                  <!--You help make Dat Project a success!-->
+                  <!--Donations sustain Dat, allowing us to improve core support and feature development.-->
+                <!--</p>     -->
+                 <h2 class="fw4 f3 mt0 mb3">我们需要您的支持！</h2>
+                 <p class="black-70 measure lh-copy mv0">
+                  您可以帮助Dat Project获得成功！
+                  捐款支持Dat，支持我们改进核心功能和开发新特性。
                 </p>
               </div>
             </div>

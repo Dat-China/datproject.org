@@ -36,10 +36,10 @@ module.exports = function (state, emit) {
       <div class="${splash} mh2 mh4-l center contain">
         <section class="tc pa3 pt5-ns">
           <h1 class="f2 f1-l mb0 lh-title">
-            <span class="color-green">dat://</span> — a peer-to-peer protocol
+            <span class="color-green">dat://</span> — 点对点协议
           </h1>
           <h2 class="f3 mt3 mb3 color-neutral-50 fw4">
-           A community-driven project powering a next-generation Web
+           一个由社区驱动的旨在为下一代Web提供支持的项目
           </h2>
           <div class="w-100 mt5">
             <img class="center h4" src="/public/img/dat-logo.png" alt="Dat Project">
@@ -49,29 +49,29 @@ module.exports = function (state, emit) {
       </div>
       ${homeSection({
     'bgColor': 'bg-neutral',
-    'title': 'A bit more about Dat...',
+    'title': '关于Dat的更多信息...',
     'subtitle': `
-       Core pieces of the web shape how we communicate and organize. However, these pieces are increasingly controlled by large monopolies. In building Dat, we envision a future of community-driven tools backed by nonprofit organizations.
+       网络的核心部分塑造了我们现在沟通和组织的方式。 然而, 这些部分越来越多地受到大型垄断企业的控制。 在构建Dat的过程中， 我们设计了一个面向未来的由非营利组织支持，由社区驱动的工具。
         `,
     'sections': [
       {
-        'title': 'What is a web protocol?',
-        'text': 'Whether you know it or not, you probably use at least one web protocol everyday — HTTP! Similar to HTTP, the Dat Protocol uses the Internet to transfer data between computers (plus a lot more, read on!). Dat leverages existing infrastructure while making the web more user-centered.'
+        'title': '什么是Web协议？',
+        'text': '无论你是否知道, 你至少每天都在使用一个网络协议 - HTTP！ 与HTTP类似, Dat协议使用 Internet 在计算机之间传输数据（还有更多内容，请继续阅读！）。 Dat利用现有的基础架构，同时使Web更加以用户为核心。'
       },
       {
-        'title': 'Who runs the Dat Project?',
+        'title': '谁在负责 Dat 项目?',
         'text': `
-            Dat is an open source project with community governance through a set of working groups. Dat has largely been funded by donations and grants, with sponsorship by Code for Science & Society, a US nonprofit.             `
+            Dat是一个开源项目，通过工作组进行社区治理。 Dat主要由捐赠和赞助支持， 并由美国非营利组织<a href="https://codeforscience.org/">Code for Science＆Society</a>赞助。`
       },
       {
-        'title': 'Why create a new protocol?',
-        'text': 'The next-generation web includes public & private places for communities, without selling data to advertisers. Designed initially for research data, Dat builds on the existing web while providing more user control. Dat allows users to share directly and establish new models for digital collaboration.'
+        'title': '为什么要创建一个新的协议?',
+        'text': '下一代网络包含共同的公共和私人场所, 而不向广告商出售数据。 Dat最初是为研究数据而设计的，它在现有网络上构建，同时提供更多用户控制。Dat允许用户直接共享并建立数字协作的新模型。'
       }
     ],
     cta: cta(state, emit, {
       id: 'docs-cta',
-      href: 'https://docs.datproject.org',
-      text: 'Read More About Dat',
+      href: 'https://docs.datproject.org.cn',
+      text: '阅读更多关于Dat的信息',
       klass: 'f5 white bg-animate bg-green hover-bg-dark-green pa3 link'
     })
   })}
@@ -86,24 +86,24 @@ module.exports = function (state, emit) {
   })}
       ${homeSection({
     'bgColor': 'bg-neutral',
-    'title': 'Who uses Dat?',
+    'title': '谁在使用 Dat?',
     'subtitle': `
-          Initially designed for sharing and archiving research data, Dat is now used by a wide variety of communities.
+          Dat最初设计用于共享和归档研究数据，现在被各种各样的社区使用
         `,
     'sections': [
       {
-        'title': 'Researchers',
-        'text': 'With the <a href="https://blog.datproject.org/tag/science/">Dat in the Lab</a> project, we found places for Dat in existing researcher workflows, from basic data sharing to reproducible containers. We continue to work with researchers and libraries to identify high-impact uses of Dat in research.'
+        'title': '研究人员',
+        'text': '通过在 <a href="https://blog.datproject.org/tag/science/">实验室</a>使用Dat， 我们在现有的研究人员工作流程中找到了Dat的位置，从基本数据共享到可重现的容器。 我们将继续与研究人员和图书馆合作，以确定Dat在研究中的更多重要用途。'
       },
       {
-        'title': 'Creators',
+        'title': '创作者',
         'text': `
-              Applications, such as the <a href="https://dat.land">Beaker Browser</a>, make publishing as simple as creating a website & sharing a Dat link. Providing true one-click publishing without selling data, creators can be empowered to share with their communities. We envision a future ecosystem developed around user-centered publishing.
+              诸如 <a href="https://dat.land">Beaker Browser</a>类的应用程序, 使发布网站和共享Dat链接变得如此简单。 提供真正的一键式发布而无需运营数据, 创作者可以被授权与他们的社区共享。我们设想围绕以用户为中心的出版开发的未来生态系统。
             `
       },
       {
-        'title': 'Activists',
-        'text': 'Modern web applications are built with the assumption of connectivity. This is not true for many parts of the world, in disaster situations, and in cases where surveillance is a concern. Dat-based applications are designed to work offline and online, without bias.'
+        'title': '活动家',
+        'text': '现代Web应用程序是在假设在线的基础上构建的 with the assumption of connectivity. This is not true for many parts of the world, in disaster situations, and in cases where surveillance is a concern. Dat-based applications are designed to work offline and online, without bias.'
       }
     ],
     cta: cta(state, emit, {
@@ -114,7 +114,7 @@ module.exports = function (state, emit) {
     })
   })}
       ${homeSection({
-    'title': 'Striving for Value-Driven Technology',
+    'title': '努力实现价值驱动的技术',
     'subtitle': `
           Along the way of building the web we got lost.
           We need technology driven by communities & built for public well-being.

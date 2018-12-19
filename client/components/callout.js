@@ -9,23 +9,23 @@ module.exports = function (state, emit) {
           <div class="mt3 w3 h3 center">
             <svg><use xlink:href="#daticon-star-dat"/></svg>
           </div>
-          <h4 class="f4 mb0 tc">Documentation</h4>
+          <h4 class="f4 mb0 tc">文档</h4>
           <p class="tc mb0 f7 ttu dat-neutral-70">
-            Learn About Dat
+            了解Dat
           </p>
           <ul class="dat-list list p0 lh-copy">
             <li class="f5 mb2">
-              <b>Command Line:</b> install and learn how to use the Dat command line.
+              <b>命令行:</b> 安装并学习如何使用Dat命令行。
             </li>
             <li class="f5 mb2">
-              <b>Javascript APIs:</b> build peer-to-peer applications in Node.js.
+              <b>Javascript APIs:</b> 使用Node.js中构建点对点应用程序。
             </li>
           </ul>
           <p class="tr mb0" style="margin-top:auto;">
   ${cta(state, emit, {
-    href: 'https://docs.datproject.org',
+    href: 'https://docs.datproject.org.cn',
     klass: 'bg-green white b f5 no-underline grow dib v-mid ba ph3 pv2',
-    text: 'Getting Started',
+    text: '开始入门',
     id: 'docs'
   })}
           </p>
@@ -34,16 +34,16 @@ module.exports = function (state, emit) {
       <div class="flex w-100 w-third-ns bg-white dat-shadow mv4-ns mv2 mh3-l mh1-ns pa3">
         <div class="flex-column flex">
           <div class="mt3 w3 h3 center"><svg><use xlink:href="#daticon-network"/></svg></div>
-          <h4 class="f4 mb0 tc">Dat Ecosystem</h4>
+          <h4 class="f4 mb0 tc">Dat 生态</h4>
           <p class="tc mb0 f7 ttu dat-neutral-70">
-            Community Applications & Tools
+            社区应用和工具
           </p>
           <ul class="dat-list list p0 lh-copy">
             <li class="f5 mb2">
-              <b>Community-Driven:</b> learn more about tools people are building on Dat.
+              <b>社区驱动:</b> 了解有关人们在Dat上构建的工具的更多信息
             </li>
             <li class="f5 mb2">
-              <b>User Applications:</b> discover Beaker Browser, Dat Desktop, and more.
+              <b>应用程序:</b> 了解 <a href="https://beakerbrowser.com/">Beaker Browser</a>, <a href="https://github.com/dat-land/dat-desktop">Dat Desktop</a>, 和<a href="https://dat.land/">更多</a>其他应用.
             </li>
           </ul>
           <p class="tr mb0" style="margin-top:auto;">
@@ -51,7 +51,7 @@ module.exports = function (state, emit) {
     {
       href: 'https://dat.land',
       klass: 'bg-green white b f5 no-underline grow dib v-mid ba ph3 pv2',
-      text: 'Explore Dat Land',
+      text: '探索 Dat Land',
       id: 'dat-land'
     })}
           </p>
@@ -60,23 +60,23 @@ module.exports = function (state, emit) {
       <div class="flex w-100 w-third-ns bg-white dat-shadow mv4-ns mv2 mh3-l mh1-ns pa3">
         <div class="flex-column flex">
           <div class="mt3 w3 h3 center"><svg><use xlink:href="#daticon-happy-dat"/></svg></div>
-          <h4 class="tc f4 mb0">Dat Protocol</h4>
+          <h4 class="tc f4 mb0">Dat 协议</h4>
           <p class="tc mb0 f7 ttu dat-neutral-70">
-            How Dat Works
+            Dat 是如何工作的？
           </p>
           <ul class="dat-list list p0 lh-copy">
             <li class="f5 mb2">
-              <b>Protocol Specification:</b> learn about the Dat protocol and how it works.
+              <b>协议规范:</b> 了解Dat协议及其工作原理。
             </li>
             <li class="f5 mb2">
-              <b>Working Group:</b> see how our community creates the Dat protocol.
+              <b>工作组:</b> 了解我们的社区是如何创建Dat协议的。
             </li>
           </ul>
           <p class="tr mb0" style="margin-top:auto;">
             ${cta(state, emit, {
     href: 'https://datprotocol.com',
     klass: 'bg-green white b f5 no-underline grow dib v-mid ba ph3 pv2',
-    text: 'View the Specs',
+    text: '协议规范',
     id: 'dat-protocol'
   })}
           </p>
