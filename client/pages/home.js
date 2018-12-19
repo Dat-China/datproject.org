@@ -27,7 +27,7 @@ const splash = css`
 `
 
 module.exports = function (state, emit) {
-  emit(state.events.DOMTITLECHANGE, 'dat:// — a peer-to-peer protocol')
+  emit(state.events.DOMTITLECHANGE, 'dat:// — 一个点对点协议')
 
   return html`
     <body>
@@ -56,16 +56,16 @@ module.exports = function (state, emit) {
     'sections': [
       {
         'title': '什么是Web协议？',
-        'text': '无论你是否知道, 你至少每天都在使用一个网络协议 - HTTP！ 与HTTP类似, Dat协议使用 Internet 在计算机之间传输数据（还有更多内容，请继续阅读！）。 Dat利用现有的基础架构，同时使Web更加以用户为核心。'
+        'text': '无论你是否知道, 你至少每天都在使用一个网络协议 - 那就是HTTP！ 与HTTP类似, Dat协议使用互联网在计算机之间传输数据（dat不限于此，请继续阅读！）。 Dat利用现有的基础架构，推进互联网的用户中心化。'
       },
       {
         'title': '谁在负责 Dat 项目?',
         'text': `
-            Dat是一个开源项目，通过工作组进行社区治理。 Dat主要由捐赠和赞助支持， 并由美国非营利组织<a href="https://codeforscience.org/">Code for Science＆Society</a>赞助。`
+            Dat是一个开源项目，通过工作组进行社区治理。 Dat主要由美国非营利组织Code for Science & Society捐赠和赞助支持<a href="https://codeforscience.org/">Code for Science＆Society</a>赞助。`
       },
       {
         'title': '为什么要创建一个新的协议?',
-        'text': '下一代网络包含共同的公共和私人场所, 而不向广告商出售数据。 Dat最初是为研究数据而设计的，它在现有网络上构建，同时提供更多用户控制。Dat允许用户直接共享并建立数字协作的新模型。'
+        'text': '下一代互联网的社区包含公共空间与私人空间， 而且不需要向服务提供商卖数据。Dat是为数据研究而设计的，它基于已有的互联网构建，同时为用户提供更多控制权。Dat允许用户直接地分享数据并支持可以支持用户构建新的数字协作模式。'
       }
     ],
     cta: cta(state, emit, {
@@ -93,61 +93,61 @@ module.exports = function (state, emit) {
     'sections': [
       {
         'title': '研究人员',
-        'text': '通过在 <a href="https://blog.datproject.org/tag/science/">实验室</a>使用Dat， 我们在现有的研究人员工作流程中找到了Dat的位置，从基本数据共享到可重现的容器。 我们将继续与研究人员和图书馆合作，以确定Dat在研究中的更多重要用途。'
+        'text': '通过 <a href="https://blog.datproject.org/tag/science/">Dat in the lab</a>项目， 我们在研究人员现有的工作流程中找到了Dat的定位，从基本数据共享到可复制的容器。 我们将继续与研究人员和图书馆合作，以发掘Dat在研究中更有影响力的用途。'
       },
       {
         'title': '创作者',
         'text': `
-              诸如 <a href="https://dat.land">Beaker Browser</a>类的应用程序, 使发布网站和共享Dat链接变得如此简单。 提供真正的一键式发布而无需运营数据, 创作者可以被授权与他们的社区共享。我们设想围绕以用户为中心的出版开发的未来生态系统。
+              诸如 <a href="https://dat.land">Beaker Browser</a>这类应用程序, 使发布数据就像创建网站和共享Dat链接一样简单。 提供真正的一键式发布而无需出卖数据, 创作者可以在他们的社区中共享。我们构想了一个以用户为中心开发的未来生态系统。
             `
       },
       {
         'title': '活动家',
-        'text': '现代Web应用程序是在假设在线的基础上构建的 with the assumption of connectivity. This is not true for many parts of the world, in disaster situations, and in cases where surveillance is a concern. Dat-based applications are designed to work offline and online, without bias.'
+        'text': '现代Web应用程序是以连通性为前提构建的。但是在世界上的一些地方网络无法连通，比如灾区或一些监视严密的地区。而Dat的应用联网状态与脱机状态都可以使用。'
       }
     ],
     cta: cta(state, emit, {
       id: 'docs-cta',
       href: 'https://dat.land',
-      text: 'Explore More on Dat.Land',
+      text: '到Dat.Land了解更多',
       klass: 'f5 white bg-animate bg-green hover-bg-dark-green pa3 link'
     })
   })}
       ${homeSection({
-    'title': '努力实现价值驱动的技术',
+    'title': '力求实现价值驱动的技术',
     'subtitle': `
-          Along the way of building the web we got lost.
-          We need technology driven by communities & built for public well-being.
+          我们在构建互联网的路上迷路了。
+          我们需要社区驱动的技术，我们需要为公众福祉而生的技术。
         `,
     'sections': [
       {
-        'title': 'Community First',
+        'title': '社区优先',
         'text': `
-              We believe not-for-profit and community-driven technology will make the future of the web more inclusive.
-              To build that future, we must develop with communities not served by the current monopoly-driven system.
+              我们相信，非营利和社区驱动的技术将使网络的未来更具包容性。
+              为了建立这样的未来，我们必须与不受当前垄断驱动体系服务的社区一起发展。
             `
       },
       {
-        'title': 'Transparent Funding',
+        'title': '资金透明',
         'text': `
-              We believe digital tools we rely on for community organization &  communication should be transparently funded and operated. Dat Project aims to be <a href="https://github.com/datproject/organization" target="_blank" class="link">transparent</a> about funding and the process of fundraising.
+              我们坚信我们所依赖的数字工具应该被透明地资助 。Dat project应该在受资助与筹集资助的过程保持 <a href="https://github.com/datproject/organization" target="_blank" class="link">透明度</a>。
             `
       },
       {
-        'title': 'Open Governance',
+        'title': '开放治理',
         'text': `
-            At the scale of the web, every decision can have a massive impact on our political systems, social well-being, and the future of humanity. We believe these decisions should not be made by private groups aiming to increase profits. Dat Project runs openly through a series of <a
+            在互联网中，每一个决定都会对我们的政治制度、社会福利和人类的未来产生巨大的影响。我们认为，这些决定不应由旨在增加利润的私人团体作出。DAT项目通过一系列<a
             target="_blank"
             class="link"
             href="/about#team"
-            >working groups</a>.
+            >working groups</a>实现公开运作。
             `
       }
     ],
     cta: cta(state, emit, {
       id: 'blog-cta',
       href: 'https://blog.datproject.org',
-      text: 'Learn More on Dat Blog',
+      text: '到Dat Blog了解更多',
       klass: 'f5 white bg-animate bg-green hover-bg-dark-green pa3 link'
     })
   })}

@@ -40,7 +40,7 @@ module.exports = function (state, emit) {
           </p>
           <ul class="dat-list list p0 lh-copy">
             <li class="f5 mb2">
-              <b>社区驱动:</b> 了解有关人们在Dat上构建的工具的更多信息
+              <b>社区驱动:</b> 了解更多基于dat构建的应用
             </li>
             <li class="f5 mb2">
               <b>应用程序:</b> 了解 <a href="https://beakerbrowser.com/">Beaker Browser</a>, <a href="https://github.com/dat-land/dat-desktop">Dat Desktop</a>, 和<a href="https://dat.land/">更多</a>其他应用.
