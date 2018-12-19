@@ -16,23 +16,23 @@ module.exports = function (state, emit) {
     <div>
       <section class="${wrapper}">
         <header class="">
-          <h1 class="f2 horizontal-rule">About Dat</h1>
+          <h1 class="f2 horizontal-rule">关于 Dat</h1>
         </header>
         <article class="">
           <p class="${copyClass}">
-            Dat is a nonprofit-backed community & open protocol for building apps of the future. The Dat Project imagines a web of commons created by global communities on open and secure protocols. We set out to improve access to public data and created a new protocol along the way, read more at <a href="https://www.datprotocol.com">datprotocol.com</a>. In our work on developing Dat, we found a under-served need. Decentralized software has potential to return control of digital information to the people. Today, building peer-to-peer applications presents both technical and ethical challenges but Dat is slowly changing that.
+            Dat是一个非营利组织支持的技术社区，也是一个用于构建面向未来的应用程序的开放协议。 Dat Project设想了一个由全球社区在开放和安全协议上创建的公共网络。我们着手改进对公共数据的访问，并在此过程中创建了一个新协议。 请在 <a href="https://www.datprotocol.com">datprotocol.com</a>上阅读协议的更多内容。  在我们开发Dat的工作中, 我们发现了一个不太受重视的需求。 分散式的软件有可能将数字信息的控制权交还给人们。 如今, 构建点对点的应用程序既带来了技术挑战，也带来了道德挑战。 但是Dat正在慢慢改变这些。
           </p>
           <p class="${copyClass}">
-            To encourage people to experiment and innovate with decentralized technology, we aim to make Dat foundational software for peer-to-peer applications – one that is sponsored by a mission-driven nonprofit. To realize this future, we aim to make Dat good at supporting the core needs of peer-to-peer applications. We hope that with our small but critical focus, we can create a strong building block for the Dat ecosystem.
+            为了鼓励人们使用分散式的技术来进行试验和创新， 我们的目标是为点对点应用程序构建Dat基础软件 – 由一个由任务驱动的非营利组织赞助的应用程序。为了实现这一未来， 我们致力于让Dat专注于支持点对点应用的核心需求。 我们希望, 通过这些小而关键的重点, 为Dat生态体系 构建一个个强大的基础模块。
           </p>
           <p class="${copyClass}">
-            The first code went into Dat <a href="https://github.com/datproject/dat/commit/e5eda57b53f60b05c0c3d97da90c10cd17dcbe19">on August 17, 2013</a>. Throughout its history, Dat has had a primary focus on Dat sharing in civic data and research, only recently with a wider focus on more general decentralized applications. Dat has been almost exclusively funded by grants from private foundations, <a href="https://blog.datproject.org/2017/09/15/dat-funding-history"/>read more on the funding history</a>.
+            Dat的第一行代码<a href="https://github.com/datproject/dat/commit/e5eda57b53f60b05c0c3d97da90c10cd17dcbe19">完成于2013年8月17日。纵观其历史，Dat主要关注公共数据和研究中的数据的共享，最近才更广泛地关注更普遍的分散式应用. Dat几乎完全由私有基金会资助, <a href="https://blog.datproject.org/2017/09/15/dat-funding-history"/>了解更多的资金历史。</a>.
           </p>
           <h2 class="${headClass}">
-            Supporters
+            支持者
           </h2>
           <p class="${copyClass}">
-            Dat Project is sponsored by <a href="http://codeforscience.org">Code for Science & Society</a>, a <span class="nowrap">U.S. 501(c)(3)</span> nonprofit. We've received funding from the <a href="https://knightfoundation.org/">Knight Foundation</a>, the <a href="https://sloan.org/">Alfred P. Sloan Foundation</a>, and the <a href="https://www.moore.org/">Gordon and Betty Moore Foundation</a>.
+            项目是由<a href="http://codeforscience.org">Code for Science & Society</a>赞助, 一个 <span class="nowrap">U.S. 501(c)(3)</span> 非盈利组织。 我们也获得了 <a href="https://knightfoundation.org/">Knight Foundation</a>,  <a href="https://sloan.org/">Alfred P. Sloan Foundation</a>, 以及 <a href="https://www.moore.org/">Gordon and Betty Moore Foundation</a>的资助。
           </p>
         </article>
       </section>
